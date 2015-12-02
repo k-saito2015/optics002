@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.1415926-p3.4-110825-2.6 (utf8.sjis) (TeX Live 2013/W32TeX) (format=platex 2015.10.30)  2 DEC 2015 15:27
+This is e-pTeX, Version 3.1415926-p3.4-110825-2.6 (utf8.sjis) (TeX Live 2013/W32TeX) (format=platex 2015.10.30)  2 DEC 2015 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -255,4 +255,4 @@ Here is how much of TeX's memory you used:
  750 hyphenation exceptions out of 8191
  27i,14n,26p,272b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on "problem 2.dvi" (6 pages, 18112 bytes).
+Output written on "problem 2.dvi" (6 pages, 18136 bytes).
