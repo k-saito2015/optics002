@@ -1,0 +1,529 @@
+\documentclass{jsarticle}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{amssymb}
+
+\topmargin = 0mm
+\oddsidemargin = 5mm
+\textwidth = 152mm
+\textheight = 240mm
+
+\title{chapeter 2 problem 解答}
+
+\begin{document}
+\maketitle
+\renewcommand{\thesubsection}{2.\arabic{subsection})}
+
+
+
+
+
+\subsection{}
+
+\begin{align}
+\nabla f = (\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z}) 
+\end{align}
+の様に書ける。x成分だけ考えると
+\begin{align}
+\frac{\partial (e^{i(kr - \omega t)})}{\partial x} = ik_{x}f 
+\end{align}
+y成分、z成分も同様に考えれば、
+\begin{align}
+\frac{\partial (e^{i(kr - \omega t)})}{\partial y} = ik_{y}f \ ,
+\frac{\partial (e^{i(kr - \omega t)})}{\partial z} = ik_{z}f
+\end{align}•
+したがって、答えは
+\begin{align}
+\nabla f = (k_{x},k_{y},k_{z})if = if\bf{k}
+\end{align}•
+
+
+
+
+\subsection{}
+1m離れたところの球面の表面に100Jのエネルギーが入ってくるので、球の表面積でその仕事量を割れば良くて、
+\begin{align}
+\frac{100}{4\pi} \  \frac{J}{s・m^2}
+\end{align}•
+
+
+
+
+\subsection{}
+照射強度は単位時間、単位面積あたりのエネルギーなので
+\begin{align}
+I = \frac{100\times 10^{6}}{\pi(5 \times 10^{-6})} = 1.273 \times 10^{18} \ \frac{J}{m^2・s}
+\end{align}•
+振幅は以下のように与えられるので
+\begin{align}
+|E_0|^{2} = \frac{2Z_0}{n} = 2Z_0 I = 2(\frac{\mu_0}{\epsilon_0})^{1/2}I = 3.096\times 10^{10}
+\end{align}•
+
+
+
+\subsection{}
+
+
+\subsection{}
+\begin{align}
+\bm{E} &= E_0(1,be^{i\phi})e^{i(kz-\omega t)} \\
+&=E_0(e^{i(kz-\omega t)},be^{i(kz-\omega t+\phi)})
+\end{align}•
+実数部分だけ見れば実数表示と一致する。
+
+
+
+\subsection{}
+(a)
+\begin{align}
+\bm{E} = E_0(\cos(kz-\omega t),\cos(kz-\omega t))
+\end{align}
+
+直線偏向になっている($y=x$)
+。
+
+
+（b）
+\begin{align}
+\bm{E} = E_0(\cos(kz-\omega t),2\cos(kz-\omega t))
+\end{align}
+
+直線偏向（$y=2x$）
+
+（c）
+\begin{align}
+\bm{E}& = E_0(\cos(kz-\omega t),-\cos(kz-\omega t+\pi/2)) 　\nonumber \\
+&= E_0(\cos(kz-\omega t),\sin(kz-\omega t)
+\end{align}
+
+円偏光になっている。
+
+
+(d)
+\begin{align}
+\bm{E} = E_0(\cos(kz-\omega t),\cos(kz-\omega t+\pi/4))
+\end{align}
+
+楕円偏光になります。（長軸が45度傾いている）
+
+\subsection{}
+(a)
+\begin{align}
+(1, 1)
+\end{align}
+
+
+(b)
+\begin{align}
+(1, 2)
+\end{align}
+
+
+(c)
+複素表示で書けば、eの共通因子がでてきて、くくれます。
+\begin{align}
+(1,-i)
+\end{align}
+
+
+(d)
+\begin{align}
+(\sqrt{2} , 1+i)
+\end{align}
+
+
+\subsection{}
+○(1,$\sqrt{3}$)のとき
+
+
+直線偏向になる（x軸から60°の偏角を持つ）。このベクトルに直交するベクトルでは、
+\begin{align}
+(\sqrt{3},-1)
+\end{align}•
+
+
+○$(i,-1)$のとき
+
+
+円偏向になる。このベクトルに直行するベクトルは
+\begin{align}
+(i,-1)
+\end{align}•
+
+
+○$(1-i,1+i)$のとき
+\begin{align}
+ \left(
+    \begin{array}{c}
+      1-i \\
+      1+i \\     
+    \end{array}
+  \right)
+&= (1+i) \left(
+    \begin{array}{c}
+      \frac{1-i}{1+i} \\
+      1 \\     
+    \end{array}
+  \right) \\
+&=(1+i) \left(
+    \begin{array}{c}
+      \frac{-2i}{2} \\
+      1 \\     
+    \end{array}
+  \right) \\
+&=(1+i) \left(
+    \begin{array}{c}
+      -i \\
+      1 \\     
+    \end{array}
+  \right) \\
+&= (i-1) \left(
+    \begin{array}{c}
+      1 \\
+      i \\     
+    \end{array}
+  \right)
+\end{align}
+$\sigma_+$であることがわかる。つまり、円偏光である。これに直行するベクトルは逆向きの円偏光ベクトルなので,
+\begin{align}
+\left(
+    \begin{array}{c}
+      1 \\
+     - i \\     
+    \end{array}
+  \right)
+\end{align}
+
+\subsection{}
+
+\subsection{}
+入射光を$\left(
+    \begin{array}{c}
+      A \\
+      B \\     
+    \end{array}
+  \right)$とする。fig2.7の通りの偏光子を設置すると、透過した光はジョーンズ行列を用い書くと、
+\begin{align}
+\begin{bmatrix}
+1 & 0 \\
+0 & i
+\end{bmatrix}
+\frac{1}{2}
+\begin{bmatrix}
+1 & 1 \\
+1 & 1
+\end{bmatrix}
+\left[
+    \begin{array}{c}
+      A \\
+      B \\     
+    \end{array}
+  \right]      
+&=
+\frac{1}{2}
+　\begin{bmatrix}
+1 & 0 \\
+0 & i
+　\end{bmatrix}
+\begin{bmatrix}
+A+B \\
+A+B
+\end{bmatrix} \\
+&=
+\frac{1}{2}
+　\begin{bmatrix}
+A+B \\
+(A+B)i
+　\end{bmatrix}  
+=
+\frac{A+B}{2}\begin{bmatrix}
+1 \\
+i
+\end{bmatrix}
+\end{align}
+となる。ここで、AとBは任意である。AとBの値にかかわらずこの偏光は円偏光になる。A、Bは振幅の大きさを決めるパラメータになっている。
+
+\subsection{}
+この問題は固有ベクトルを求める問題になる。ある行列（偏光子）の固有ベクトルは、その固有ベクトルと一致する偏光状態の光を通すと、何も変化しない（振幅だけ変化するが）。なので、固有ベクトルを探すことから始める。
+\begin{align}
+\begin{bmatrix}
+1 & i \\
+-i & 1
+\end{bmatrix}
+\begin{bmatrix}
+a  \\
+b 
+\end{bmatrix}
+&=
+\lambda
+\begin{bmatrix}
+a  \\
+b 
+\end{bmatrix} \\
+&=
+\begin{bmatrix}
+1-\lambda & i \\
+-i & 1-\lambda
+\end{bmatrix}
+\begin{bmatrix}
+a  \\
+b 
+\end{bmatrix} =0
+\end{align}•
+$\begin{bmatrix}
+a  \\
+b 
+\end{bmatrix}=\begin{bmatrix}
+0  \\
+0 
+\end{bmatrix}$　なので
+\begin{align}
+\begin{vmatrix}
+1-\lambda & i \\
+-i & 1-\lambda
+\end{vmatrix}
+=0 \\
+\lambda=0,2
+\end{align}•
+
+○$\lambda=0$のとき
+
+
+$a=-ib$なので固有ベクトルは
+\begin{align}
+\begin{bmatrix}
+1  \\
+-i 
+\end{bmatrix}
+\end{align}•
+このとき、$\lambda = 0$なので光を通さない。
+
+○$\lambda=2$のとき
+
+
+$a=ib$なので固有ベクトルは
+\begin{align}
+\begin{bmatrix}
+1  \\
+i 
+\end{bmatrix}
+\end{align}•
+このとき、偏光状態を変えずに光を透過する。
+
+
+
+\subsection{}
+$\begin{bmatrix}
+1  \\
+0
+\end{bmatrix}$
+の光を問題に与えられた順($\frac{1}{2}\begin{bmatrix}
+1&1  \\
+1 & 1
+\end{bmatrix} \  ,   \begin{bmatrix}
+0&0  \\
+0&1 
+\end{bmatrix}$)に置いた偏光子におくと、
+\begin{align}
+\frac{1}{2}\begin{bmatrix}
+1&1  \\
+1 & 1
+\end{bmatrix}
+\begin{bmatrix}
+0&0  \\
+0&1 
+\end{bmatrix}
+\begin{bmatrix}
+1  \\
+0
+\end{bmatrix}
+&=
+\frac{1}{2}
+\begin{bmatrix}
+0&0  \\
+0&1
+\end{bmatrix}
+\begin{bmatrix}
+1  \\
+1
+\end{bmatrix}  \\
+&=
+\frac{1}{2}
+\begin{bmatrix}
+0  \\
+1
+\end{bmatrix}
+\end{align}
+この操作で$\begin{bmatrix}
+1  \\
+0
+\end{bmatrix}$
+が
+$\begin{bmatrix}
+0  \\
+1
+\end{bmatrix}$
+に変わったことがわかる。そして、それは偏光面が90°変わったことを意味している。
+
+
+\subsection{}
+$\begin{bmatrix}
+1&1 \\
+1&1
+\end{bmatrix}$
+に対する固有ベクトルと固有値を求める。
+
+\begin{align}
+\begin{bmatrix}
+1&1 \\
+1&1
+\end{bmatrix}
+\begin{bmatrix}
+a  \\
+b
+\end{bmatrix}
+=
+\lambda
+\begin{bmatrix}
+a  \\
+b
+\end{bmatrix} 
+\begin{bmatrix}
+1&1 \\
+1&1
+\end{bmatrix} \\
+\begin{bmatrix}
+1-\lambda&1 \\
+1&1-\lambda
+\end{bmatrix}
+\begin{bmatrix}
+a  \\
+b
+\end{bmatrix} 
+=0
+\end{align}•
+行列式が0になることを使えば、$\lambda=0,2$がわかる。
+
+
+○$\lambda = 0$のとき
+
+
+$A=-B$なので固有ベクトルは
+\begin{align}
+\begin{bmatrix}
+1  \\
+-1
+\end{bmatrix} 
+\end{align}
+
+
+○$ \lambda = 2 $のとき
+
+
+$A = B$なので固有ベクトル
+\begin{align}
+\begin{bmatrix}
+1  \\
+1
+\end{bmatrix} 
+\end{align}
+
+
+\subsection{}
+○水の場合（$n=1.33$）
+\begin{align}
+\sin^{-1}(\frac{1}{n}) \  \frac{180}{\pi} = 48.75 \ (degree)
+\end{align}•
+
+○ダイヤ（$n= 2.42$）
+\begin{align}
+\sin^{-1}(\frac{1}{n})  \ \frac{180}{\pi} = 24.40 \ (degree)
+\end{align}
+
+\subsection{}
+○水の場合（$n = 1.33$）
+\begin{align}
+\theta_{\rm{Brewater}} = \tan{1.33}^{-1} = 53.06 \ (degree)
+\end{align}•
+
+○ダイヤの場合（$n = 2.42$）
+\begin{align}
+\theta_{\rm{Brewater}} = \tan{2.42}^{-1} = 67.54
+ \ (degree)
+\end{align}
+
+
+\subsection{}
+P偏光、S偏光の反射率は式(2.58),(2.59),(2.60)でわかる様に
+\begin{align}
+&R_s = \left|r_s \right|^{2}= \left|\frac{\cos{\theta} - \sqrt{n^2-\sin^2{\theta}}}{\cos{\theta} + \sqrt{n^2-\sin^2{\theta}}} \right|^2 \\
+&R_p = \left|r_p \right|^{2}= \left|\frac{-n^2\cos{\theta} + \sqrt{n^2-\sin^2{\theta}}}{n^2\cos{\theta} + \sqrt{n^2-\sin^2{\theta}}} \right| ^2
+\end{align}•
+と書ける。$\theta = \pi/4$の時考える。
+
+
+○水の場合（$n=1.33$）
+\begin{align}
+R_s &= 0.0523067 \\
+R_p &= 0.0027359
+\end{align}•
+
+
+○ダイヤの場合（$n = 2.42$）
+\begin{align}
+R_s &= 0.2829700 \\
+R_p &= 0.0800720
+\end{align}•
+
+一応pythonのソースコードを貼っておく
+
+*************************************
+
+import numpy as np
+
+a = np.pi/4
+
+n = 
+
+rs = np.cos(a)-np.sqrt(n**2-(np.sin(a))**2)
+
+rs = rs/(np.cos(a)+np.sqrt(n**2-(np.sin(a))**2))
+
+rp =  -n**(2) * np.cos(a)+np.sqrt(n**2-(np.sin(a))**2)
+
+rp = rp / ( n**(2) * np.cos(a)+np.sqrt(n**2-(np.sin(a))**2))
+
+Rs = rs**2
+Rp = rp**2
+
+print (Rs,Rp)
+
+**************************************
+
+\subsection{}
+内部反射における臨界角が４５°とうことがわかるので、そこから以下のことがわかる。
+\begin{align}
+\pi/4 = \sin^{-1}{1/n} \ \   \therefore \ \frac{1}{n} = \sin\frac{\pi}{4}= \frac{1}{\sqrt{2}}
+\end{align}•
+従って
+\begin{align}
+&\theta_{\rm{Brewater}}= \tan^{-1}n=\tan^{-1}(\sqrt{2})=54.73\ (degree) 
+\end{align}
+
+\subsection{}
+円偏光を作るためには、1回の反射でS偏光とP偏光の位相差が$\pi/4$であればいい（2回反射するので計$\pi/2$の位相がずれる）。したがって、式(2.27)の$\Delta=\pi/4$を満たすような$\theta$を考えればよい。求める$\theta$に関する方程式は式（2.27）を用いて以下の様にかける。
+\begin{align}
+\tan\pi/8= \frac{\cos\theta\sqrt{\sin^2\theta-1/1.65^2}}{\sin^2\theta}
+\end{align}•
+$\theta=60°$の時、この式の両辺がだいたい一致していることを示せばいい（解く必要があるとは思わなかったので）。
+\begin{align}
+&\mbox{(左辺)}=\tan\pi/8=0.4142 \\
+&\mbox{(右辺)}=\frac{\cos\pi/3\sqrt{\sin^2\pi/3-1/1.65^2}}{\sin^2\pi/3}=0.4124
+\end{align}•
+両辺がだいたい一致するので$\theta=60°$の時、すなわち、$A=60°$の時円偏光になることがわかる。
+
+\subsection{}
+
+
+
+\end{document}
